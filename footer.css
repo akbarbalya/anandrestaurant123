@@ -1,0 +1,38 @@
+.footer{
+    height: 200px;
+    width: 99.8%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: cornsilk;
+}
+.footerb{
+    height: 180px;
+    width: 300px;
+    border: 2px solid rgb(53, 80, 149);
+    float: left;
+    text-align: center;
+     
+    
+}
+@media screen and (max-width: 767px)
+{
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 700px;
+        top: 0;
+        position: relative;
+        width: auto;
+        
+       
+    }
+    .footerb{
+        position: relative;
+        top: -3px;
+    }
+    
+}

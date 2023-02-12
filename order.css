@@ -1,0 +1,42 @@
+*{
+    background-image: linear-gradient(left black,red,green);
+}
+.orderdetails{
+    text-align: center;
+}
+.formdiv  {
+       position: relative;
+      left: 42%;
+       font-size: large;
+       width: 357px;
+       
+}
+  
+#submit{
+    width: 200px;
+    padding: 5px;
+}
+@media screen and (max-width: 767px)
+{
+    .formdiv{
+        position: revert-layer;
+        padding: 14px;
+        padding-right: 4px;
+    }
+    #submit{
+       padding: 6px;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancle{
+        display: block;
+    }
+    #cancle{
+        display: none;
+    }
+       #check:checked ~ label #cancle{
+        display: block;
+    }
+}
+ 

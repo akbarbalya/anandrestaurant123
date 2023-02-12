@@ -1,0 +1,35 @@
+#preloader{
+    display: none;
+}
+#loader{
+    position: absolute;
+    margin: auto;  
+    /* border: 2px solid red; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height:600px;
+}
+#loader img{
+    width: 600px;
+     
+}
+@media screen and (max-width: 767px)
+{
+   #preloader{
+        display: none;
+    }
+    #loader{ 
+    position: absolute;
+    margin: auto;  
+    /* border: 2px solid red; */
+    top: 0;
+    bottom: 0;
+    left: -100px;
+    right:   0;
+    width: 600px;
+    height:600px;
+    }
+}

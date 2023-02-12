@@ -1,0 +1,56 @@
+.contack input{
+    width: 200px;
+    height: 20px;
+}
+.contack{
+    font-size: 20px;
+    position: relative;
+    left: 161px;
+    bottom: -54px;
+    /* margin-left: -154px; */
+}
+.contackdiv{
+    height: 480px;
+    width: 99.78%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contack1{
+    width:49%;
+    height: 440px;
+    border: 2px solid aqua;
+    float: left;
+}
+.contack2{
+    width:49%;
+    height: 440px;
+    border: 2px solid aqua;
+    float: left;
+}
+@media screen and (max-width: 767px)
+{
+        .contack2{
+            display: none;
+         }
+         .contack1{
+            width: 354px;
+         }
+         .contack{
+            margin-left: -154px;
+            width: 351px;
+         }
+         #check:checked ~ label #btn{
+            display: none;
+        }
+        #check:checked ~ label #cancle{
+            display: block;
+        }
+        #cancle{
+            display: none;
+        }
+           #check:checked ~ label #cancle{
+            display: block;
+        }
+}

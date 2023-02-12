@@ -1,0 +1,80 @@
+p{
+    text-align:justify;
+    margin-left: 10px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.abouth1{
+    text-align: center;
+}.topcat{
+    /* border: 5px solid black; */
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.topcatpro{
+    /* border: 2px solid red; */
+    width: 370px;
+    height: 270px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition: transform 1s;
+}
+.topcatpro:hover{
+    transform: scale(1.05);
+}
+ .topcatpro img{
+    width: 100%;
+    height: 88%;
+  
+ }
+ .checked{
+    color:orange;
+ }
+ .starr{
+     text-align: center;
+     height: 26px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ @media screen and (max-width: 767px)
+{
+ #menu ul li a{
+    position: relative;
+    
+     top: -16px;
+}
+#menu ul li a:hover{
+   
+}
+ 
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancle{
+        display: block;
+    }
+    #cancle{
+        display: none;
+    }
+       #check:checked ~ label #cancle{
+        display: block;
+    }
+   
+      
+     .topcat{
+        display: flex;
+        flex-direction: column;
+         
+     }
+}
+@media screen and (max-width: 767px){
+    #menu ul li a{
+        font-size: 2px;
+    }
+}
