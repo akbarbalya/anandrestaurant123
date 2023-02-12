@@ -1,0 +1,107 @@
+.topcat{
+    /* border: 5px solid black; */
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.topcatpro{
+    border: 2px solid red;
+    width: 370px;
+    height: 322px; 
+    float: left;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition: transform 1s; 
+}
+.topcatpro:hover{
+    transform: scale(1.05);
+}
+ .topcatpro img{
+    width: 100%;
+    height: 67%;
+  
+ }
+ .checked{
+    color:orange;
+ }
+ .starr{
+     text-align: center;
+     height: 26px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .producttitle p{
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+ }
+.btn{
+    /* border: 2px solid green; */
+   
+    display: flex;
+    justify-content: center;
+    /* width: 40px; */
+     
+}
+ 
+.btn input:hover{
+    background-color: rgb(206, 151, 14);
+    color: white;
+}
+.btn input{
+    align-items: center;
+    width: 140px;
+    border-radius: 7px;
+    border: 1px;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition: transform 1s;
+    height: 50px;
+}
+.producttitle b{
+    color: green;
+    font-size: 20px;
+
+}
+
+
+@media screen and (max-width: 767px)
+{
+    .topcatpro{
+    padding-bottom: 25px;
+    }
+     
+    .topcatpro:hover{
+        transform: none;
+    }
+    .maintopcat{
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    #menu ul li a{
+        position: relative;
+        
+         top: -16px;
+    }
+    .topcat{
+       align-items: center; 
+       display: flex;
+       
+       flex-direction: column;
+       justify-content: space-around;
+       
+       flex-direction: column;
+    }
+    .starr{
+        padding: 10px;
+    }
+    
+    
+    
+}
